@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.fit_text_logo {
+    color: rgb(228, 24, 24);
+}
+
 .nav_head {
     background-color: black;
     color: white;
@@ -14,13 +18,27 @@
     justify-content: center;
     font-size: 1.2rem;
     align-items: center;
+
 }
-.nav_head span{
-    
+
+.nav_head li {
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.nav_head li:hover {
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgb(53, 53, 53);
+
+}
+
+.nav_head span {
     margin-right: 80px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
+
 .nav_head ul {
     display: flex;
     flex-direction: row;
@@ -60,4 +78,83 @@
     font-size: 1.8rem;
     font-weight: 300;
     color: rgb(161, 166, 173);
+}
+
+.redes_inicio {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    justify-content: space-around;
+    width: fit-content;
+    margin-left: 160px;
+    gap: 16px;
+
+}
+
+.redes_inicio i {
+    transition: all 0.3s;
+}
+
+.redes_inicio i:hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+/*INFO - NOSOTROS*/
+
+.info_nosotros {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(235, 241, 247);
+}
+
+.info_nosotros>div {
+    padding-top: 120px;
+    padding-left: 80px;
+    display: flex;
+
+}
+
+.info_nosotros img {
+    width: 50%;
+}
+
+.informacion_neta_nosotros {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+}
+
+.separacion_numero_titulo {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.separacion_numero_titulo>span {
+    font-size: 6rem;
+    color: rgb(228, 24, 24);
+    font-weight: 900;
+    padding-right: 20px;
+}
+
+.separacion_numero_titulo>div {
+    font-size: 1.3rem;
+}
+
+.separacion_numero_titulo>div h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(228, 24, 24);
+}
+
+.separacion_numero_titulo>div h1 {
+    font-size: 3.5rem;
+    
+}
+.informacion_neta_nosotros p {
+    padding-bottom: 10px;
 }
